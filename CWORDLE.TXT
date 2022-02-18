@@ -1,0 +1,29 @@
+cwordle -- a Wordle-like word guessing game
+===========================================
+
+cwordle is a console-based word-guessing game with similarities to Wordle.
+
+How to play
+-----------
+Guess five-letter words. The default word list has no proper nouns, so letter
+case is not significant.  All words are British English, but some are obscure,
+and some are vulgar. 
+
+For each guess the program displays which guessed letters are in the right
+place in the secret word, which are in the wrong place, and which are not in
+the secret word at all. These letters are shown on a five-column grid. A letter
+that is in the correct place is show like this: !X!.
+
+Some words have repeated letters, and these create a particular challenge,
+because the program won't tell you how many times a letter appears. 
+
+Play continues until you guess the word, or hit ctrl+c.  As an added
+irritation, the program won't tell you the secret word unless you actually
+guess it. There are no cheats or hints.
+
+Author
+------
+cwordle is maintained by Kevin Boone, and is distributed under the terms of the
+GNU Public Licence, v3.0. 
+
+

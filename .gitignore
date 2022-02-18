@@ -1,0 +1,6 @@
+*.H
+*.COM
+*.LIB
+_*.asm
+*.o
+*.MSG
